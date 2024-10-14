@@ -8,11 +8,11 @@ function App() {
   return (
     <>
       <div className="w-screen min-h-screen">
-        <div className="flex flex-col gap-[15px] min-h-screen justify-center items-center">
-          <div className="bg-white lg:flex sm:w-7/12 lg:w-4/12 items-center justify-center lg:rounded-[20px] lg:shadow-2xl lg:shadow-indigo-200 ">
+        <div className="flex flex-col min-h-screen justify-center items-center">
+          <div className=" lg:flex sm:w-7/12 lg:w-4/12 items-center justify-center lg:rounded-[20px] lg:shadow-2xl lg:shadow-indigo-200 ">
             <div
               className="text-white result px-12 lg:py-9 sm:gap-2 lg:gap-5 flex flex-col items-center justify-center
-           bg-gradient-to-b from-indigo-500 to-indigo-700 sm:w-full lg:w-1/2 relative sm:rounded-b-[40px] lg:rounded-[20px] sm:py-6"
+           bg-gradient-to-b from-indigo-500 to-indigo-700 sm:w-full lg:w-1/2 relative sm:rounded-b-[40px] lg:rounded-[20px] sm:py-6 "
             >
               <span className="sm:text-[18px] lg:text-[20px] font-medium text-gray-300">
                 Your Result
@@ -38,8 +38,8 @@ function App() {
 
             <div className="summary p-9 flex gap-5 flex-col lg:w-6/12 relative rounded-[20px]">
               <span className="text-[20px] font-semibold">Summary</span>
-              <div className="flex flex-col gap-3">
-                <div className="reaction flex justify-between bg-[#FEF6F5] border-x-2 border-x-red-300 py-4 px-3 rounded-lg  font-medium text-md ">
+              <div className="flex flex-col gap-4">
+                <div className="reaction flex justify-between bg-[#FEF6F5] border-x-2 border-x-red-300 py-3 px-3 rounded-lg font-medium text-md">
                   <div className="flex gap-3 items-center">
                     <HiOutlineLightningBolt
                       className="text-[#C8615E]"
@@ -52,7 +52,7 @@ function App() {
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#FEFBF2] border-x-2 border-x-yellow-400 py-4 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#FEFBF2] border-x-2 border-x-yellow-400 py-3 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <LiaBrainSolid className="text-[#E0B543] font-" size={20} />
                     <p className="text-[#E0B543]">Memory</p>
@@ -62,7 +62,7 @@ function App() {
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#F2FAFA] border-x-2 border-x-green-300 py-4 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#F2FAFA] border-x-2 border-x-green-300 py-3 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <BsChatDots className="text-[#5BAB93]" size={20} />
                     <p className="text-[#5BAB93]">Verbal</p>
@@ -72,7 +72,7 @@ function App() {
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#F3F2FD] border-x-2 border-x-indigo-300 py-4 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#F3F2FD] border-x-2 border-x-indigo-300 py-3 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <FaRegEye className=" text-[#4B4C88]" size={20} />
                     <p className="text-[#4B4C88]">Visual</p>
