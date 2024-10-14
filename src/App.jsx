@@ -43,7 +43,7 @@ function App() {
                 Summary
               </span>
               <div className="flex flex-col gap-4">
-                <div className="reaction flex justify-between bg-[#FEF6F5] border-x-2 border-x-red-300 xs:py-2 lg:py-2 px-3 rounded-lg font-medium text-md">
+                <div className="reaction flex justify-between bg-[#FEF6F5] border-x-2 border-x-red-300 xs:py-2 lg:py-3 px-3 rounded-lg font-medium text-md">
                   <div className="flex gap-3 items-center">
                     <HiOutlineLightningBolt
                       className="text-[#C8615E]"
@@ -56,7 +56,7 @@ function App() {
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#FEFBF2] border-x-2 border-x-yellow-400 xs:py-2 lg:py-2 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#FEFBF2] border-x-2 border-x-yellow-400 xs:py-2 lg:py-3 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <LiaBrainSolid className="text-[#E0B543] font-" size={20} />
                     <p className="text-[#E0B543] font-extrabold">Memory</p>
@@ -66,7 +66,7 @@ function App() {
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#F2FAFA] border-x-2 border-x-green-300 xs:py-2 lg:py-2 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#F2FAFA] border-x-2 border-x-green-300 xs:py-2 lg:py-3 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <BsChatDots className="text-[#5BAB93]" size={20} />
                     <p className="text-[#5BAB93] font-extrabold">Verbal</p>
@@ -76,7 +76,7 @@ function App() {
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#F3F2FD] border-x-2 border-x-indigo-300 xs:py-2 lg:py-2 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#F3F2FD] border-x-2 border-x-indigo-300 xs:py-2 lg:py-3 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <FaRegEye className=" text-[#4B4C88]" size={20} />
                     <p className="text-[#4B4C88] font-extrabold">Visual</p>
