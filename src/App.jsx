@@ -18,7 +18,7 @@ function App() {
                 Your Result
               </span>
               <div className="circle flex flex-col items-center justify-center xs:w-[100px] xs:h-[100px] sm:w-[135px] sm:h-[135px] lg:w-[170px] lg:h-[170px] rounded-full bg-gradient-to-b from-indigo-700 to-indigo-600 ">
-                <span className="score font-medium xs:text-[40px] lg:text-[56px]">
+                <span className="score font-extrabold xs:text-[40px] lg:text-[56px]">
                   76
                 </span>
                 <span className="of-score font-medium text-gray-300 xs:text-[14px] lg:text-[16px]">
@@ -43,43 +43,43 @@ function App() {
                 Summary
               </span>
               <div className="flex flex-col gap-4">
-                <div className="reaction flex justify-between bg-[#FEF6F5] border-x-2 border-x-red-300 xs:py-2 md:py-3 px-3 rounded-lg font-medium text-md">
+                <div className="reaction flex justify-between bg-[#FEF6F5] border-x-2 border-x-red-300 xs:py-2 lg:py-2 px-3 rounded-lg font-medium text-md">
                   <div className="flex gap-3 items-center">
                     <HiOutlineLightningBolt
                       className="text-[#C8615E]"
                       size={20}
                     />
-                    <p className="text-[#C8615E]">Reaction</p>
+                    <p className="text-[#C8615E] font-extrabold">Reaction</p>
                   </div>
                   <div className="flex gap-3">
                     <div className="rating">80</div>
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#FEFBF2] border-x-2 border-x-yellow-400 xs:py-2 md:py-3 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#FEFBF2] border-x-2 border-x-yellow-400 xs:py-2 lg:py-2 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <LiaBrainSolid className="text-[#E0B543] font-" size={20} />
-                    <p className="text-[#E0B543]">Memory</p>
+                    <p className="text-[#E0B543] font-extrabold">Memory</p>
                   </div>
                   <div className="flex gap-3">
                     <div className="rating">92</div>
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#F2FAFA] border-x-2 border-x-green-300 xs:py-2 md:py-3 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#F2FAFA] border-x-2 border-x-green-300 xs:py-2 lg:py-2 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <BsChatDots className="text-[#5BAB93]" size={20} />
-                    <p className="text-[#5BAB93]">Verbal</p>
+                    <p className="text-[#5BAB93] font-extrabold">Verbal</p>
                   </div>
                   <div className="flex gap-3">
                     <div className="rating">61</div>
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#F3F2FD] border-x-2 border-x-indigo-300 xs:py-2 md:py-3 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#F3F2FD] border-x-2 border-x-indigo-300 xs:py-2 lg:py-2 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <FaRegEye className=" text-[#4B4C88]" size={20} />
-                    <p className="text-[#4B4C88]">Visual</p>
+                    <p className="text-[#4B4C88] font-extrabold">Visual</p>
                   </div>
                   <div className="flex gap-3">
                     <div className="rating">72</div>
