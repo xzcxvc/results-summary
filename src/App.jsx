@@ -14,7 +14,7 @@ function App() {
               className="text-white result px-12 lg:py-9 sm:gap-2 lg:gap-5 flex flex-col items-center justify-center
            bg-gradient-to-b from-indigo-500 to-indigo-700 sm:w-full lg:w-1/2 relative sm:rounded-b-[40px] lg:rounded-[20px] sm:py-6 "
             >
-              <span className="sm:text-[18px] lg:text-[20px] font-medium text-gray-300">
+              <span className="sm:text-[18px] lg:text-[20px] font-bold text-gray-300">
                 Your Result
               </span>
               <div className="circle flex flex-col items-center justify-center sm:w-[135px] sm:h-[135px] lg:w-[170px] lg:h-[170px] rounded-full bg-gradient-to-b from-indigo-700 to-indigo-600 ">
