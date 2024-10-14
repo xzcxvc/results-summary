@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <div className="w-screen min-h-screen font-hanken">
-        <div className="flex flex-col min-h-screen justify-center items-center">
-          <div className=" lg:flex xs:w-7/12 sm:w-7/12 lg:w-7/12 xl:w-5/12 2xl:w-4/12 items-center justify-center lg:rounded-[20px] lg:shadow-2xl lg:shadow-indigo-200 ">
+        <div className="flex flex-col lg:min-h-screen justify-center items-center">
+          <div className=" lg:flex xs:w-screen sm:w-screen md:w-screen lg:w-7/12 xl:w-5/12  items-center justify-center lg:rounded-[20px] lg:shadow-2xl lg:shadow-indigo-200 ">
             <div
               className="text-white result px-12 xs:py-5 lg:py-9 sm:gap-2 lg:gap-5 flex flex-col items-center justify-center
            bg-gradient-to-b from-indigo-500 to-indigo-700 sm:w-full lg:w-1/2 relative xs:rounded-b-[40px] sm:rounded-b-[40px] lg:rounded-[20px] sm:py-6 "
@@ -25,7 +25,7 @@ function App() {
                   of 100
                 </span>
               </div>
-              <div className="flex items-center flex-col">
+              <div className="flex items-center flex-col lg:py-0 xs:py-3">
                 <span className="sm:text-[24px] lg:text-[28px] font-medium">
                   Great
                 </span>
@@ -38,12 +38,12 @@ function App() {
               </div>
             </div>
 
-            <div className="summary xs:p-5 md:p-9 flex xs:gap-5 md:gap-7 flex-col lg:w-6/12 relative rounded-[20px]">
+            <div className="summary xs:p-5 flex xs:gap-5 2xl:gap-10 xl:gap-11 md:gap-8 flex-col lg:w-6/12 relative rounded-[20px]">
               <span className="sm:text-[18px] lg:text-[20px] font-semibold">
                 Summary
               </span>
               <div className="flex flex-col gap-4">
-                <div className="reaction flex justify-between bg-[#FEF6F5] border-x-2 border-x-red-300 xs:py-2 lg:py-3 px-3 rounded-lg font-medium text-md">
+                <div className="reaction flex justify-between bg-[#FEF6F5] border-x-2 border-x-red-300 xs:py-2 lg:py-2 px-3 rounded-lg font-medium text-md">
                   <div className="flex gap-3 items-center">
                     <HiOutlineLightningBolt
                       className="text-[#C8615E]"
@@ -56,7 +56,7 @@ function App() {
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#FEFBF2] border-x-2 border-x-yellow-400 xs:py-2 lg:py-3 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#FEFBF2] border-x-2 border-x-yellow-400 xs:py-2 lg:py-2 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <LiaBrainSolid className="text-[#E0B543] font-" size={20} />
                     <p className="text-[#E0B543] font-extrabold">Memory</p>
@@ -66,7 +66,7 @@ function App() {
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#F2FAFA] border-x-2 border-x-green-300 xs:py-2 lg:py-3 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#F2FAFA] border-x-2 border-x-green-300 xs:py-2 lg:py-2 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <BsChatDots className="text-[#5BAB93]" size={20} />
                     <p className="text-[#5BAB93] font-extrabold">Verbal</p>
@@ -76,7 +76,7 @@ function App() {
                     <div className="of-rating text-gray-400"> / 100</div>
                   </div>
                 </div>
-                <div className="reaction flex justify-between bg-[#F3F2FD] border-x-2 border-x-indigo-300 xs:py-2 lg:py-3 px-3 rounded-lg  font-medium text-md ">
+                <div className="reaction flex justify-between bg-[#F3F2FD] border-x-2 border-x-indigo-300 xs:py-2 lg:py-2 px-3 rounded-lg  font-medium text-md ">
                   <div className="flex gap-3 items-center">
                     <FaRegEye className=" text-[#4B4C88]" size={20} />
                     <p className="text-[#4B4C88] font-extrabold">Visual</p>
