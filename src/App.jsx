@@ -37,7 +37,9 @@ function App() {
             </div>
 
             <div className="summary p-9 flex gap-5 flex-col lg:w-6/12 relative rounded-[20px]">
-              <span className="text-[20px] font-semibold">Summary</span>
+              <span className="sm:text-[18px] lg:text-[20px] font-semibold mb-4">
+                Summary
+              </span>
               <div className="flex flex-col gap-4">
                 <div className="reaction flex justify-between bg-[#FEF6F5] border-x-2 border-x-red-300 py-3 px-3 rounded-lg font-medium text-md">
                   <div className="flex gap-3 items-center">
