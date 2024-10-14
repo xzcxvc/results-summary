@@ -7,7 +7,7 @@ import { FaRegEye } from "react-icons/fa";
 function App() {
   return (
     <>
-      <div className="w-screen min-h-screen">
+      <div className="w-screen min-h-screen font-hanken">
         <div className="flex flex-col min-h-screen justify-center items-center">
           <div className=" lg:flex sm:w-7/12 lg:w-4/12 items-center justify-center lg:rounded-[20px] lg:shadow-2xl lg:shadow-indigo-200 ">
             <div
